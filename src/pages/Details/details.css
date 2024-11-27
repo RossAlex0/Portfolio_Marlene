@@ -13,6 +13,9 @@
     margin-bottom: 4rem;
     font-size: 14px;
   }
+  img {
+    max-width: 100%;
+  }
 }
 
 .detail_btn {
@@ -30,4 +33,20 @@
 .detail_btn:hover {
   color: #fff;
   background-color: #000;
+}
+.detail_btn:active {
+  color: #fff;
+  background-color: #000;
+}
+
+@media (width < 640px) {
+  .detail {
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      white-space: normal;
+      font-size: 12px;
+    }
+  }
 }
