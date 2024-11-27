@@ -1,20 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
+#root {
+  padding-bottom: 10vh;
+  position: relative;
+  height: auto;
 }
 
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h1,
+h2,
+p,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
 }
 
-.flex-between {
+.btntotop {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  cursor: pointer;
+  background: none;
+  border: none;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 5%;
+  z-index: 2;
+  transform: translateY(200%);
+  animation: position 1s forwards;
+
+  img {
+    height: 3vh;
+  }
+}
+.btntotop.hide {
+  animation: hidePosition 1s forwards; /* Animation de disparition */
+}
+
+@keyframes position {
+  from {
+    transform: translateY(400%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes hidePosition {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(400%);
+  }
 }
