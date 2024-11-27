@@ -11,8 +11,8 @@ export default function Home() {
 
   const breakpointColumnsObj = {
     default: 3,
-    700: 2,
-    500: 1,
+    900: 2,
+    640: 1,
   };
 
   return (
