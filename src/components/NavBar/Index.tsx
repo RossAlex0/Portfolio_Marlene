@@ -18,7 +18,7 @@ export default function Navbar() {
       </button>
       <div className="header_about">
         <a
-          href="/64ec4fea469d6a03a2acd4db_CV-MARLENE_AYRAULT.pdf"
+          href="/CV-MARLENE_AYRAULT.pdf"
           download="Marlene_Ayrault_CV.pdf"
           className="about"
         >
