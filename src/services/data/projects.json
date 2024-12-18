@@ -3,63 +3,63 @@
     "id": "936842ab-ae05-4815-a88a-95f46d206b84",
     "name": "SNCF Connect",
     "description": "Le projet consiste à re designer l'application web et mobile de SNCF Connect. Il s'agit d'un projet personnel, \n initier à la suite de la refonte fait part la SNCF.",
-    "thumb": "/assetsProjects/sncf/sncfThumb.svg",
-    "screen": "/assetsProjects/sncf/sncfScreen.svg"
+    "thumb": "/assetsProjects/sncf/sncfThumb.webp",
+    "screen": "/assetsProjects/sncf/sncfScreen.webp"
   },
   {
     "id": "5453d6a8-90dc-4650-a3c0-418234c12dfd",
     "name": "Frenchfounders - Espace entreprise",
     "description": "Plateforme business international pour accompagner les entreprises à développer de nouvelles opportunités business.",
-    "thumb": "/assetsProjects/frenchFounders/ffThumb.svg",
-    "screen": "/assetsProjects/frenchFounders/ffScreen.svg"
+    "thumb": "/assetsProjects/frenchFounders/ffThumb.webp",
+    "screen": "/assetsProjects/frenchFounders/ffScreen.webp"
   },
   {
     "id": "4104a91d-7811-4fd8-a90d-3dcfc122fccd",
     "name": "Intermarché - Leaflet",
     "description": "Envie de gagner du temps quand vous faites vos courses ? Finie l’attente en caisse grâce à la nouvelle application mon scan Inter !\nCréation d'un leaflet promotion pour l'application 'Mon scan Inter'",
-    "thumb": "/assetsProjects/interMarcher/interThumb.svg",
-    "screen": "/assetsProjects/interMarcher/interScreen.svg"
+    "thumb": "/assetsProjects/interMarcher/interThumb.webp",
+    "screen": "/assetsProjects/interMarcher/interScreen.webp"
   },
   {
     "id": "628a78f4-9a5e-4f61-a626-a01195048794",
     "name": "Fulll - Screen store",
     "description": "Création d'un template pour les screens des stores de tous les produits Fulll.\nIphone, Iphone 5.5, Android en version FR et EN.",
-    "thumb": "/assetsProjects/full/rhFull/rhFullThumb.svg",
-    "screen": "/assetsProjects/full/rhFull/rhFullScreen.svg"
+    "thumb": "/assetsProjects/full/rhFull/rhFullThumb.webp",
+    "screen": "/assetsProjects/full/rhFull/rhFullScreen.webp"
   },
   {
     "id": "74f6efb9-9dda-49d6-bda8-7cc238243893",
     "name": "Cinq Degrés",
     "description": "Agence de conseil, expert en produit digital.\nRefonte du site vitrine.",
-    "thumb": "/assetsProjects/5degres/5degThumb.svg",
-    "screen": "/assetsProjects/5degres/5degScreen.svg"
+    "thumb": "/assetsProjects/5degres/5degThumb.webp",
+    "screen": "/assetsProjects/5degres/5degScreen.webp"
   },
   {
     "id": "db33938a-c772-4d90-8540-61be497c18e8",
     "name": "Mailinblack - Tutoriels",
     "description": "Entreprise française de cybersécurité, protège les entreprises contre les risques cyber du quotidien.\nMise en place d'un accompagnement client sur tous les produits Mailinblack.",
-    "thumb": "/assetsProjects/mailInBlack/tutoMIB/tutoMibThumb.svg",
-    "screen": "/assetsProjects/mailInBlack/tutoMIB/tutoMibScreen.svg"
+    "thumb": "/assetsProjects/mailInBlack/tutoMIB/tutoMibThumb.webp",
+    "screen": "/assetsProjects/mailInBlack/tutoMIB/tutoMibScreen.webp"
   },
   {
     "id": "2c96b4e9-7ebf-47be-9e37-19b9173c9781",
     "name": "Fulll - Home page",
     "description": "Logiciels complets pour les experts-comptables. (web et mobile).\nRefonte de la Home page 'Portail' application mobile centrale de Fulll.",
-    "thumb": "/assetsProjects/full/appFull/appFullThumb.svg",
-    "screen": "/assetsProjects/full/appFull/appFullScreen.svg"
+    "thumb": "/assetsProjects/full/appFull/appFullThumb.webp",
+    "screen": "/assetsProjects/full/appFull/appFullScreen.webp"
   },
   {
     "id": "ad6a61c2-a1ae-4a8b-9be7-9ef05fb346ac",
     "name": "Mailinblack - Sensibilisation",
     "description": "Création de visuel de sensibilisation co-construit avec les DSI.\n3 tons différents afin de répondre aux besoins de nos différents utilisateurs.",
-    "thumb": "/assetsProjects/mailInBlack/sensiMIB/sensiMibThumb.svg",
-    "screen": "/assetsProjects/mailInBlack/sensiMIB/sensiMibScreen.svg"
+    "thumb": "/assetsProjects/mailInBlack/sensiMIB/sensiMibThumb.webp",
+    "screen": "/assetsProjects/mailInBlack/sensiMIB/sensiMibScreen.webp"
   },
   {
     "id": "05bebf8a-c8a8-4353-9b63-fa79d1cdd220",
     "name": "Fulll - Design system - Form",
     "description": "Création du design system mobile de Fulll.\nExtrait du template formulaire.",
-    "thumb": "/assetsProjects/full/formFull/formFullThumb.svg",
-    "screen": "/assetsProjects/full/formFull/formFullScreen.svg"
+    "thumb": "/assetsProjects/full/formFull/formFullThumb.webp",
+    "screen": "/assetsProjects/full/formFull/formFullScreen.webp"
   }
 ]
