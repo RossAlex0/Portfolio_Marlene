@@ -28,7 +28,7 @@ export default function Details() {
         </>
       ) : (
         <>
-          <p>Not found</p>
+          <p className="txtErr">Error 404 - Not found</p>
         </>
       )}
       <button
