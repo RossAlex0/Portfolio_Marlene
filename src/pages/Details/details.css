@@ -10,11 +10,12 @@
 
   p {
     text-align: center;
+    margin-top: 1rem;
     margin-bottom: 4rem;
     font-size: 14px;
   }
   img {
-    max-width: 100%;
+    max-width: 55%;
   }
 }
 
@@ -47,6 +48,9 @@
     p {
       white-space: normal;
       font-size: 12px;
+    }
+    img {
+      max-width: 85%;
     }
   }
 }

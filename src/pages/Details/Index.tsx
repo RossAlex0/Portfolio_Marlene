@@ -28,7 +28,7 @@ export default function Details() {
         </>
       ) : (
         <>
-          <p>pas trouvé</p>
+          <p>Not found</p>
         </>
       )}
       <button
