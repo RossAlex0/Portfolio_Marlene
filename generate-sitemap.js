@@ -14,7 +14,7 @@ const urls = [
     priority: 0.8,
   })),
   {
-    url: "/CV-MARLENE_AYRAULT.pdf",
+    url: "/CV_AYRAULT.pdf",
     changefreq: "yearly",
     priority: 0.9,
   },
