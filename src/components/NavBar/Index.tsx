@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 
-import logoM from "@public/logoM.svg";
+import logoM from "/logoM.svg";
 import "@/components/NavBar/navbar.css";
 
 export default function Navbar() {
@@ -14,7 +14,11 @@ export default function Navbar() {
         </Link>
       </div>
       <button type="button" onClick={() => navigate("/")}>
-        <img src={logoM} alt="Marlene Ayrault" />
+        <img
+          src={logoM}
+          alt="Marlene Ayrault"
+          style={{ maxWidth: "200px", maxHeight: "200px" }}
+        />
       </button>
       <div className="header_about">
         <a

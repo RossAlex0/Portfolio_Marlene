@@ -37,7 +37,7 @@ button {
   }
 }
 .btntotop.hide {
-  animation: hidePosition 1s forwards; /* Animation de disparition */
+  animation: hidePosition 1s forwards;
 }
 
 @keyframes position {

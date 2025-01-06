@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
+import { ClipLoader } from "react-spinners";
 
 import Navbar from "@/components/NavBar/Index";
 import Footer from "@/components/Footer/Index";
@@ -9,11 +10,13 @@ import { scrollPosition } from "@/services/utils/scrollPosition";
 import { preloadImages } from "@/services/utils/preload";
 import projectsData from "@/services/data/projects.json";
 
-import upArrow from "@public/upArrow.svg";
+import upArrow from "/upArrow.svg";
 
 export default function App() {
   const [posY, setPosY] = useState<number>(0);
   const [isLoading, setIsLoading] = useState<boolean>(true);
+
+  const Loader = () => <ClipLoader color="#1c2a7e" size={50} />;
 
   useEffect(() => {
     scrollPosition(setPosY);
@@ -34,16 +37,26 @@ export default function App() {
 
   return (
     <>
-      <Navbar />
-      <Outlet />
+      <Suspense fallback={<Loader />}>
+        <Navbar />
+      </Suspense>
+      <Suspense fallback={<Loader />}>
+        <Outlet />
+      </Suspense>
       <button
         type="button"
         className={posY >= 240 ? "btntotop" : "btntotop hide"}
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       >
-        <img src={upArrow} alt="arrow" />
+        <img
+          src={upArrow}
+          alt="arrow"
+          style={{ maxWidth: "200px", maxHeight: "200px" }}
+        />
       </button>
-      <Footer />
+      <Suspense fallback={<Loader />}>
+        <Footer />
+      </Suspense>
     </>
   );
 }
