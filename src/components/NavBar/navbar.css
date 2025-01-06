@@ -41,13 +41,13 @@ header {
     }
 
     h2 {
-      font-weight: 400;
+      font-weight: Medium;
       font-size: 14px;
       transition: all 0.3s;
     }
 
     h2:hover {
-      font-weight: 700;
+      font-weight: bold;
     }
   }
 

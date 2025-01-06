@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/icoM.svg" />
-
+    <link
+      rel="preload"
+      href="/assetsProjects/frenchFounders/ffThumb.webp"
+      as="image"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -27,75 +31,4 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
-  <script>
-    const imagesToPreload = [
-      { name: "5degScreen", path: "/assetsProjects/5degres/5degScreen.webp" },
-      { name: "5degThumb", path: "/assetsProjects/5degres/5degThumb.webp" },
-      {
-        name: "ffScreen",
-        path: "/assetsProjects/frenchFounders/ffScreen.webp",
-      },
-      { name: "ffThumb", path: "/assetsProjects/frenchFounders/ffThumb.webp" },
-      {
-        name: "appFullScreen",
-        path: "/assetsProjects/full/appFull/appFullScreen.webp",
-      },
-      {
-        name: "appFullThumb",
-        path: "/assetsProjects/full/appFull/appFullThumb.webp",
-      },
-      {
-        name: "formFullScreen",
-        path: "/assetsProjects/full/formFull/formFullScreen.webp",
-      },
-      {
-        name: "formFullThumb",
-        path: "/assetsProjects/full/formFull/formFullThumb.webp",
-      },
-      {
-        name: "rhFullScreen",
-        path: "/assetsProjects/full/rhFull/rhFullScreen.webp",
-      },
-      {
-        name: "rhFullThumb",
-        path: "/assetsProjects/full/rhFull/rhFullThumb.webp",
-      },
-      {
-        name: "interScreen",
-        path: "/assetsProjects/interMarcher/interScreen.webp",
-      },
-      {
-        name: "interThumb",
-        path: "/assetsProjects/interMarcher/interThumb.webp",
-      },
-      {
-        name: "sensiMibScreen",
-        path: "/assetsProjects/mailInBlack/sensiMIB/sensiMibScreen.webp",
-      },
-      {
-        name: "sensiMibThumb",
-        path: "/assetsProjects/mailInBlack/sensiMIB/sensiMibThumb.webp",
-      },
-      {
-        name: "tutoMibScreen",
-        path: "/assetsProjects/mailInBlack/tutoMIB/tutoMibScreen.webp",
-      },
-      {
-        name: "tutoMibThumb",
-        path: "/assetsProjects/mailInBlack/tutoMIB/tutoMibThumb.webp",
-      },
-      { name: "sncfScreen", path: "/assetsProjects/sncf/sncfScreen.webp" },
-      { name: "sncfThumb", path: "/assetsProjects/sncf/sncfThumb.webp" },
-    ];
-  </script>
-  <script>
-    function preloadImages(images) {
-      images.forEach((image) => {
-        const img = new Image();
-        img.src = image.path;
-      });
-    }
-
-    preloadImages(imagesToPreload);
-  </script>
 </html>
