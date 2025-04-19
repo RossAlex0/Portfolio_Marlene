@@ -11,6 +11,7 @@ import { preloadImages } from "@/services/utils/preload";
 import projectsData from "@/services/data/projects.json";
 
 import upArrow from "/upArrow.svg";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 export default function App() {
   const [posY, setPosY] = useState<number>(0);
@@ -57,6 +58,7 @@ export default function App() {
       <Suspense fallback={<Loader />}>
         <Footer />
       </Suspense>
+      <SpeedInsights />
     </>
   );
 }
